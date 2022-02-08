@@ -1,4 +1,4 @@
-# POPCORN MOVİES
+# POPCORN MOVIES
 *This is the movie site that shows us the movie and it's content.*
 
 **The site is built using React JS**
