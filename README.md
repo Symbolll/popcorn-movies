@@ -1,6 +1,6 @@
 # POPCORN MOVİES
 * This is the movie site that shows us the movie and it's content. *
-## Here is the live version of the site [Popcorn Movies] (https://popcornmoviess.netlify.app/)
+## Here is the live version of the site (https://popcornmoviess.netlify.app/)
 ## Site Features
 - The movies are divided into 5 categories.
 - You can see the content by clicking the "view more" button to get details about the movies.
