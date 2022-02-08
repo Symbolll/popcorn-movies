@@ -1,5 +1,6 @@
 # POPCORN MOVİES
 *This is the movie site that shows us the movie and it's content.*
+
 **The site is built using React JS**
 ## Here is the live version of the site (https://popcornmoviess.netlify.app/)
 ## Site Features
