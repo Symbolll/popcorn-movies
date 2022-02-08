@@ -1,5 +1,5 @@
 # POPCORN MOVİES
-* This is the movie site that shows us the movie and it's content. *
+*This is the movie site that shows us the movie and it's content.*
 ## Here is the live version of the site (https://popcornmoviess.netlify.app/)
 ## Site Features
 - The movies are divided into 5 categories.
