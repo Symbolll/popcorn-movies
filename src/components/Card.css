@@ -1,0 +1,179 @@
+ /* CARDS CSS */
+
+.card-container{
+width:200px;
+overflow: auto;
+box-shadow: 0px 0px 15px -5px;
+transition: 0.3s;
+animation: ease-in-out;
+display: inline-block;
+color: blanchedalmond;
+position: relative;
+z-index: 0;
+margin: 0px 0px 60px 62px;
+left: 150px;
+top: 100px;
+
+}
+
+
+.card-container:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px -5px;
+    }
+
+    
+.image-container img{
+overflow: hidden;
+height: 250px;
+padding-left: 15px;
+padding-top: 5px;
+}
+
+.card-content{
+    margin: 1rem;
+    margin-top: 0.5rem;
+    color: white;
+    text-align: center;
+}
+h3,p{
+    margin: 0;
+    padding:0 ;
+}
+.card-title{
+ margin-bottom: 0.5rem;   
+ 
+}
+.btn{
+    display: flex;
+    justify-content: center;
+
+}
+.btn button{
+    padding: 0.5rem;
+    background-color: aliceblue;
+    border: none;
+    transition: 0.2s;
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+}
+.btn button:hover{
+    background: rgba(27, 156, 252, 0.1);
+}
+
+a{
+    text-transform: uppercase;
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+.font{
+    font-style: italic;
+}
+.foto{
+    width: 170px;
+    height: auto;
+}
+ /* NAVBAR CSS */
+
+form{
+    position: fixed;
+    right: 5px;
+    top: 8px;
+    z-index: 2;
+}
+
+input{
+    height: 30px;
+    width: 200px;
+    margin-right: 10px;
+    background-color: black;
+    color: black; 
+    border: 2px solid blanchedalmond;
+    font-size: medium;
+    border-radius: 10px;
+}
+.searchbutton{
+    height: 36px;
+    background-color: #fbf4cd; 
+    color: rgb(14, 13, 13); 
+    border: 2px solid #fbf4cd;
+    font-size: medium;
+    border-radius: 12px;
+    
+}
+.searchbutton:hover {
+    background-image: linear-gradient(0deg, #c7549b 0%, #ffe172 100%);
+    color: white;
+  }
+  
+  .topnav {
+    position: fixed;
+    background-color: rgba(54, 163, 247, 0.1);
+    width: 100%;
+    height: 50px;
+    top: 0;
+    z-index: 10;
+  }
+
+ 
+  .ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 800ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+    
+}
+
+.ReactModal__Overlay--before-close{
+    opacity: 0;
+}
+/* FOOTER CSS */
+
+
+.footer-text{
+    padding-top: 12px;
+    text-align: center;
+    color: blanchedalmond ;
+    font-style: italic;
+    width: 100%;
+position: relative;
+height: 50px;
+background-color: rgba(27, 156, 252, 0.1);
+top: 70px;
+right: 0px;
+opacity: 0.2;
+
+}
+
+
+#like{
+    top: 0;
+    right: 0;
+    position: absolute;
+    cursor: pointer;
+    top: 5px;
+    right: 2px;
+   
+}
+#likeicon1{
+    top: 50%;
+    right: 50%;
+    position: absolute;
+    cursor: pointer;
+    top: 100px;
+    right: 45px;
+    visibility: hidden;
+   
+}
+
+
+
+
+
+  
+  
+ 

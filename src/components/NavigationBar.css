@@ -1,0 +1,83 @@
+
+#header {
+    width: 150px;
+    padding-top: 40px;
+    position:fixed ;
+    z-index: 1;
+  }
+  #header .pro-sidebar {
+    height:96vh;
+    width: 100%;
+    min-width: 100%;
+    
+  }
+  
+  #header .pro-sidebar.collapsed {
+    width: 100px;
+    min-width: 100px;
+  }
+  #header .pro-sidebar-inner {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.15);
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout {
+    overflow-y: hidden;
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout .logotext p {
+    font-size: 100px;
+    padding: 0 0px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout ul {
+    padding: 0px 0px;
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item {
+    color: rgb(255, 254, 254);
+    margin: 25px 0px;
+    font-weight: bold;
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item .pro-icon-wrapper {
+    background-color: #fbf4cd;
+    color: #000;
+    border-radius: 5px;
+    margin-left: 0px;
+    width: 40px;
+    height: 40px;
+   
+  }
+  .subItems{
+    color: rgb(252, 245, 245);
+ 
+  }
+
+  .pro-sidebar .pro-menu .pro-menu-item.pro-sub-menu .pro-inner-list-item {
+     padding-left: 0px !important; 
+}
+  
+  .activeClass{
+    background-image: linear-gradient(0deg, #c7549b 0%, #ffe172 100%);
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item {
+    color: rgb(255, 254, 254);
+    margin: 15px 0px !important;
+    font-weight: bold;
+}
+ 
+.categories{
+  text-transform:capitalize;
+}
+
+svg {
+  stroke: currentcolor;
+  fill: currentcolor;
+  stroke-width: 0;
+  height: 1.4em;
+  width: 1.4em;
+}
+  
+  @media only screen and (max-width: 720px) {
+    html {
+      overflow: hidden;
+    }
+  }

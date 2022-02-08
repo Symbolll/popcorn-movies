@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+    height: 100%;
+    
+}
+
+.LikedContainer .card-container #like {
+    display: none;
+}
+
+.LikedContainer .card-container:hover #likeicon1  {
+visibility: visible;
+
+}
+.LikedContainer .card-container  #likeicon1 {
+    visibility: hidden;
+    
+}
+.LikedContainer .card-container:hover{
+    opacity: 0.4;
+}
+.LikedContainer .card-container .btn {
+    display: none;
+}
+
+.LikedContainer .footer-text{
+    position: fixed;
+   height: 50px;
+     margin-top: 39%;
+    right: 0;
+}
+
+
+
